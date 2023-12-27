@@ -1,3 +1,13 @@
+## GCP to AWS HA VPN Terraform module
+
+This module provisions HA VPN between GCP and AWS. The minimum number of tunnels required is 4, but can be incremented in multiples of 2.
+
+### Reference Architecture
+
+![Reference Architecture](https://cloud.google.com/static/network-connectivity/docs/vpn/images/build-ha-vpn-connections-google-cloud-aws.svg)
+
+Image Credit: https://cloud.google.com/network-connectivity/docs/vpn/tutorials/create-ha-vpn-connections-google-cloud-aws#architecture_overview.
+
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
